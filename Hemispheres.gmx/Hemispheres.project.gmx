@@ -9,14 +9,18 @@
     <sprite>sprites\spr_logic</sprite>
     <sprite>sprites\spr_hemisphere</sprite>
     <sprite>sprites\creativity</sprite>
+    <sprite>sprites\spr_hems</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_brain</object>
+    <object>objects\obj_hems</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\room_start</room>
+    <room>rooms\room_split</room>
+    <room>rooms\room_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
