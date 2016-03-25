@@ -10,12 +10,16 @@
     <sprite>sprites\spr_hemisphere</sprite>
     <sprite>sprites\creativity</sprite>
     <sprite>sprites\spr_hems</sprite>
+    <sprite>sprites\spr_giraffe</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_brain</object>
     <object>objects\obj_hems</object>
+    <object>objects\obj_logic</object>
+    <object>objects\obj_creativity</object>
+    <object>objects\obj_giraffe</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
