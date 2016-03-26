@@ -51,11 +51,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>i=0;
-while i &lt; 3 {
-    x = x - 28;
+            <string>j = global.count_logic; 
+if j &lt; 4 {
+    x = x - 80;
     alarm[0] = 28
-    i++;
+    global.count_logic++;
+} else {
+    obj_brain.sprite_index = spr_hems2;
 }
 </string>
           </argument>

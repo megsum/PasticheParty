@@ -14,9 +14,13 @@
     <sprite>sprites\spr_exclamation</sprite>
     <sprite>sprites\spr_hemisphere_broken</sprite>
     <sprite>sprites\spr_test</sprite>
+    <sprite>sprites\spr_hems2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\global_vars.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_brain</object>
     <object>objects\obj_hems</object>
