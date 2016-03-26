@@ -11,15 +11,20 @@
     <sprite>sprites\creativity</sprite>
     <sprite>sprites\spr_hems</sprite>
     <sprite>sprites\spr_giraffe</sprite>
+    <sprite>sprites\spr_exclamation</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\obj_brain</object>
     <object>objects\obj_hems</object>
     <object>objects\obj_logic</object>
     <object>objects\obj_creativity</object>
     <object>objects\obj_giraffe</object>
+    <object>objects\obj_text1</object>
+    <object>objects\obj_text2</object>
+    <object>objects\obj_text3</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
