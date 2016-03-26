@@ -12,10 +12,11 @@
     <sprite>sprites\spr_hems</sprite>
     <sprite>sprites\spr_giraffe</sprite>
     <sprite>sprites\spr_exclamation</sprite>
+    <sprite>sprites\spr_hemisphere_broken</sprite>
+    <sprite>sprites\spr_test</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\obj_brain</object>
     <object>objects\obj_hems</object>
@@ -25,6 +26,8 @@
     <object>objects\obj_text1</object>
     <object>objects\obj_text2</object>
     <object>objects\obj_text3</object>
+    <object>objects\obj_fight</object>
+    <object>objects\obj_exclamation</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
