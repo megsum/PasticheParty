@@ -15,6 +15,13 @@
     <sprite>sprites\spr_hemisphere_broken</sprite>
     <sprite>sprites\spr_test</sprite>
     <sprite>sprites\spr_hems2</sprite>
+    <sprite>sprites\spr_giraffe_rope_long</sprite>
+    <sprite>sprites\spr_t</sprite>
+    <sprite>sprites\spr_apple_red</sprite>
+    <sprite>sprites\spr_apple_yellow</sprite>
+    <sprite>sprites\spr_apple_green</sprite>
+    <sprite>sprites\spr_apple_blue</sprite>
+    <sprite>sprites\spr_apple_purple</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -32,6 +39,12 @@
     <object>objects\obj_text3</object>
     <object>objects\obj_fight</object>
     <object>objects\obj_exclamation</object>
+    <object>objects\obj_ropet_tie</object>
+    <object>objects\obj_apple_red</object>
+    <object>objects\obj_apple_yellow</object>
+    <object>objects\obj_apple_green</object>
+    <object>objects\obj_apple_blue</object>
+    <object>objects\obj_apple_purple</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>

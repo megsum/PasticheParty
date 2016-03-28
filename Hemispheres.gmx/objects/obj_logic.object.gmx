@@ -54,6 +54,10 @@
             <string>j = global.count_logic; 
 if j &lt; 4 {
     x = x - 80;
+    obj_apple_red.x -= 35;
+    obj_apple_blue.x -= 35;
+    obj_apple_yellow.x -= 35;
+    obj_ropet_tie.x -= 50;
     alarm[0] = 28
     global.count_logic++;
 } else {
