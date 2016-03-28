@@ -56,6 +56,11 @@ if j &lt; 4 {
     x = x + 20;
     alarm[0] = 28
     global.count_creativity++;
+} else {
+    sprite_index = spr_creativity_flip;
+    var eff;
+    eff = instance_create( 0, 0, obj_eff_fadetoblack );
+    eff.newRoom = room_desolated_brain;
 }
 </string>
           </argument>

@@ -22,6 +22,7 @@
     <sprite>sprites\spr_apple_green</sprite>
     <sprite>sprites\spr_apple_blue</sprite>
     <sprite>sprites\spr_apple_purple</sprite>
+    <sprite>sprites\spr_creativity_flip</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -45,11 +46,13 @@
     <object>objects\obj_apple_green</object>
     <object>objects\obj_apple_blue</object>
     <object>objects\obj_apple_purple</object>
+    <object>objects\obj_eff_fadetoblack</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
     <room>rooms\room_split</room>
     <room>rooms\room_end</room>
+    <room>rooms\room_desolated_brain</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
