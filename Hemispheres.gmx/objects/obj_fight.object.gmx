@@ -79,7 +79,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_logic.image_angle = 0;
+            <string>obj_logic_intro.image_angle = 0;
 </string>
           </argument>
         </arguments>
@@ -102,7 +102,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_logic.image_angle = 5;
+            <string>obj_logic_intro.image_angle = 5;
 </string>
           </argument>
         </arguments>
@@ -149,7 +149,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_logic.image_angle = 355;
+            <string>obj_logic_intro.image_angle = 355;
 </string>
           </argument>
         </arguments>
@@ -210,8 +210,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_logic.image_angle = 5;
-obj_creativity.x = 544;
+            <string>obj_logic_intro.image_angle = 5;
+obj_creativity_intro.x = 544;
 </string>
           </argument>
         </arguments>
@@ -258,7 +258,7 @@ obj_creativity.x = 544;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_logic.image_angle = 355;
+            <string>obj_logic_intro.image_angle = 355;
 </string>
           </argument>
         </arguments>
@@ -347,7 +347,7 @@ obj_creativity.x = 544;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_creativity.x = 500;
+            <string>obj_creativity_intro.x = 500;
 
 </string>
           </argument>

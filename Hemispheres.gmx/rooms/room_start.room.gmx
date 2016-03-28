@@ -52,9 +52,9 @@
   </views>
   <instances>
     <instance objName="obj_brain" x="64" y="128" name="inst_4A6959D5" locked="0" code="" scaleX="4" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="obj_logic" x="416" y="288" name="inst_1435FA47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_creativity" x="544" y="352" name="inst_B8E1C1A4" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_giraffe" x="96" y="224" name="inst_0FFFE2B9" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_logic_intro" x="416" y="288" name="inst_1435FA47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_creativity_intro" x="544" y="352" name="inst_B8E1C1A4" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_giraffe_intro" x="96" y="224" name="inst_0FFFE2B9" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_text1" x="992" y="736" name="inst_5CF4F622" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fight" x="992" y="704" name="inst_9BDA2505" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ropet_tie" x="125" y="448" name="inst_E7F74D36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
