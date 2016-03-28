@@ -58,7 +58,7 @@
     <instance objName="obj_brain_purple" x="0" y="-1" name="inst_17F7A5CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brain_yellow" x="0" y="-1" name="inst_3314C580" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_logic_game" x="96" y="64" name="inst_B2E3CEEA" locked="0" code="" scaleX="0.25" scaleY="0.235294118523598" colour="4294967295" rotation="0"/>
-    <instance objName="obj_giraffe_game" x="160" y="0" name="inst_B0FEF3BC" locked="0" code="" scaleX="0.061999998986721" scaleY="0.063000001013279" colour="4294967295" rotation="0"/>
+    <instance objName="obj_giraffe_game" x="180" y="40" name="inst_B0FEF3BC" locked="0" code="" scaleX="0.061999998986721" scaleY="0.063000001013279" colour="4294967295" rotation="0"/>
     <instance objName="obj_creativity_game" x="288" y="64" name="inst_793E476C" locked="0" code="" scaleX="0.0888888910412788" scaleY="0.11034482717514" colour="4294967295" rotation="0"/>
     <instance objName="obj_tall_brain" x="0" y="2" name="inst_F0741CF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

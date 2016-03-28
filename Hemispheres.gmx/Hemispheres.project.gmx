@@ -16,6 +16,7 @@
     <sprite>sprites\spr_test</sprite>
     <sprite>sprites\spr_hems2</sprite>
     <sprite>sprites\spr_giraffe_rope_long</sprite>
+    <sprite>sprites\spr_giraffe_rope_long_centered</sprite>
     <sprite>sprites\spr_t</sprite>
     <sprite>sprites\spr_creativity_flip</sprite>
     <sprite>sprites\spr_explosion</sprite>
