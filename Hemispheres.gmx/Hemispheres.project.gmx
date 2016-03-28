@@ -10,17 +10,49 @@
     <sprite>sprites\spr_hemisphere</sprite>
     <sprite>sprites\creativity</sprite>
     <sprite>sprites\spr_hems</sprite>
+    <sprite>sprites\spr_giraffe</sprite>
+    <sprite>sprites\spr_exclamation</sprite>
+    <sprite>sprites\spr_hemisphere_broken</sprite>
+    <sprite>sprites\spr_test</sprite>
+    <sprite>sprites\spr_hems2</sprite>
+    <sprite>sprites\spr_giraffe_rope_long</sprite>
+    <sprite>sprites\spr_t</sprite>
+    <sprite>sprites\spr_apple_red</sprite>
+    <sprite>sprites\spr_apple_yellow</sprite>
+    <sprite>sprites\spr_apple_green</sprite>
+    <sprite>sprites\spr_apple_blue</sprite>
+    <sprite>sprites\spr_apple_purple</sprite>
+    <sprite>sprites\spr_creativity_flip</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\global_vars.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_brain</object>
     <object>objects\obj_hems</object>
+    <object>objects\obj_logic</object>
+    <object>objects\obj_creativity</object>
+    <object>objects\obj_giraffe</object>
+    <object>objects\obj_text1</object>
+    <object>objects\obj_text2</object>
+    <object>objects\obj_text3</object>
+    <object>objects\obj_fight</object>
+    <object>objects\obj_exclamation</object>
+    <object>objects\obj_ropet_tie</object>
+    <object>objects\obj_apple_red</object>
+    <object>objects\obj_apple_yellow</object>
+    <object>objects\obj_apple_green</object>
+    <object>objects\obj_apple_blue</object>
+    <object>objects\obj_apple_purple</object>
+    <object>objects\obj_eff_fadetoblack</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
     <room>rooms\room_split</room>
     <room>rooms\room_end</room>
+    <room>rooms\room_desolated_brain</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
