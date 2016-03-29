@@ -36,6 +36,9 @@
     <sprite>sprites\spr_logic_throw</sprite>
     <sprite>sprites\spr_creativity_throw</sprite>
     <sprite>sprites\spr_tall_brain</sprite>
+    <sprite>sprites\spr_apple_thought</sprite>
+    <sprite>sprites\spr_apple_thought_flip</sprite>
+    <sprite>sprites\spr_stop_apples</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -51,11 +54,6 @@
     <object>objects\obj_fight</object>
     <object>objects\obj_exclamation</object>
     <object>objects\obj_ropet_tie</object>
-    <object>objects\obj_apple_red</object>
-    <object>objects\obj_apple_yellow</object>
-    <object>objects\obj_apple_green</object>
-    <object>objects\obj_apple_blue</object>
-    <object>objects\obj_apple_purple</object>
     <object>objects\obj_eff_fadetoblack</object>
     <object>objects\obj_eff_fadefromblack</object>
     <objects name="Brain Colors">
@@ -78,6 +76,17 @@
       <object>objects\obj_text6</object>
       <object>objects\obj_text7</object>
     </objects>
+    <objects name="apples">
+      <object>objects\obj_apple_red</object>
+      <object>objects\obj_apple_red_throw</object>
+      <object>objects\obj_apple_yellow</object>
+      <object>objects\obj_apple_green</object>
+      <object>objects\obj_apple_blue</object>
+      <object>objects\obj_apple_purple</object>
+      <object>objects\obj_apple_color_parent</object>
+    </objects>
+    <object>objects\obj_apple_thought</object>
+    <object>objects\obj_stop_apples</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
