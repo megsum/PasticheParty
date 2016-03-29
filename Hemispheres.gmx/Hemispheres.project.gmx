@@ -48,9 +48,6 @@
     <object>objects\obj_logic_intro</object>
     <object>objects\obj_creativity_intro</object>
     <object>objects\obj_giraffe_intro</object>
-    <object>objects\obj_text1</object>
-    <object>objects\obj_text2</object>
-    <object>objects\obj_text3</object>
     <object>objects\obj_fight</object>
     <object>objects\obj_exclamation</object>
     <object>objects\obj_ropet_tie</object>
@@ -72,6 +69,15 @@
     <object>objects\obj_creativity_game</object>
     <object>objects\obj_giraffe_game</object>
     <object>objects\obj_tall_brain</object>
+    <objects name="texts">
+      <object>objects\obj_text1</object>
+      <object>objects\obj_text3</object>
+      <object>objects\obj_text2</object>
+      <object>objects\obj_text4</object>
+      <object>objects\obj_text5</object>
+      <object>objects\obj_text6</object>
+      <object>objects\obj_text7</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
