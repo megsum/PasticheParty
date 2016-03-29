@@ -94,22 +94,24 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.apples_fallen == true {
-    if global.sky_color == 'blue' {
-    
-    } else if global.sky_color == 'green'{
-    
-    } else if global.sky_color == 'purple'{
-
-    } else if global.sky_color == 'yellow'{
-
+            <string>if global.c_has_apple == false &amp;&amp; global.scene2 == true{
+    if global.apples_fallen == true {
+        if global.sky_color == 'blue' {
+            create_apple(obj_apple_blue_throw)
+        } else if global.sky_color == 'green'{
+            create_apple(obj_apple_green_throw);
+        } else if global.sky_color == 'purple'{
+            create_apple(obj_apple_purple_throw);
+        } else if global.sky_color == 'yellow'{
+            create_apple(obj_apple_yellow_throw);
+        } else {
+            //no sky color is chosen
+            show_message("I don't know which color to take");
+        }
     } else {
-        //no sky color is chosen
-        show_message("I don't know which color to throw");
+        //apples haven't been unlocked yet
+        show_message("I can't reach those");
     }
-} else {
-//apples haven't been unlocked yet
-    show_message("I can't reach those");
 }
 </string>
           </argument>

@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>background_colour = make_color_rgb(100, 100, 0);
+global.sky_color = 'yellow';
 </string>
           </argument>
         </arguments>

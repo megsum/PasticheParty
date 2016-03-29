@@ -76,7 +76,7 @@ global.scene2 = true;</code>
     <instance objName="obj_apple_green" x="275" y="32" name="inst_6E6E489C" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
     <instance objName="obj_apple_blue" x="285" y="32" name="inst_0B760098" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
     <instance objName="obj_apple_purple" x="268" y="32" name="inst_4103D1C3" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
-    <instance objName="obj_apple_purple" x="285" y="27" name="inst_CAE70A01" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="obj_apple_purple" x="268" y="27" name="inst_CAE70A01" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
     <instance objName="obj_stop_apples" x="256" y="96" name="inst_03C80519" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

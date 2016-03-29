@@ -36,14 +36,19 @@
     <sprite>sprites\spr_logic_throw</sprite>
     <sprite>sprites\spr_creativity_throw</sprite>
     <sprite>sprites\spr_tall_brain</sprite>
-    <sprite>sprites\spr_apple_thought</sprite>
-    <sprite>sprites\spr_apple_thought_flip</sprite>
     <sprite>sprites\spr_stop_apples</sprite>
+    <sprites name="Thought Bubbles">
+      <sprite>sprites\spr_apple_thought</sprite>
+      <sprite>sprites\spr_apple_thought_flip</sprite>
+      <sprite>sprites\spr_cant_reach</sprite>
+      <sprite>sprites\spr_what_color</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\global_vars.gml</script>
+    <script>scripts\create_apple.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_brain</object>
@@ -80,10 +85,15 @@
       <object>objects\obj_apple_red</object>
       <object>objects\obj_apple_red_throw</object>
       <object>objects\obj_apple_yellow</object>
+      <object>objects\obj_apple_yellow_throw</object>
       <object>objects\obj_apple_green</object>
+      <object>objects\obj_apple_green_throw</object>
       <object>objects\obj_apple_blue</object>
+      <object>objects\obj_apple_blue_throw</object>
       <object>objects\obj_apple_purple</object>
+      <object>objects\obj_apple_purple_throw</object>
       <object>objects\obj_apple_color_parent</object>
+      <object>objects\obj_apple_color_parent_throw</object>
     </objects>
     <object>objects\obj_apple_thought</object>
     <object>objects\obj_stop_apples</object>
