@@ -43,6 +43,9 @@
       <sprite>sprites\spr_cant_reach</sprite>
       <sprite>sprites\spr_what_color</sprite>
     </sprites>
+    <sprite>sprites\speech_bubble_mona</sprite>
+    <sprite>sprites\spr_mona_lisa</sprite>
+    <sprite>sprites\spr_wrong</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -96,7 +99,15 @@
       <object>objects\obj_apple_color_parent_throw</object>
     </objects>
     <object>objects\obj_apple_thought</object>
+    <object>objects\obj_speech_bubble</object>
+    <object>objects\obj_Mona_lisa</object>
     <object>objects\obj_stop_apples</object>
+    <object>objects\obj_logic_end</object>
+    <object>objects\obj_creativity_end</object>
+    <object>objects\obj_giraffe_end</object>
+    <object>objects\obj_brain_end</object>
+    <object>objects\obj_braintogether_end</object>
+    <object>objects\obj_wrong</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
