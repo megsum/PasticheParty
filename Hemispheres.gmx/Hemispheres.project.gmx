@@ -108,6 +108,8 @@
     <object>objects\obj_brain_end</object>
     <object>objects\obj_braintogether_end</object>
     <object>objects\obj_wrong</object>
+    <object>objects\obj_cant_reach</object>
+    <object>objects\obj_what_color</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>

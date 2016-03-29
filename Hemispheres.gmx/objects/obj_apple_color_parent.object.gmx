@@ -110,11 +110,17 @@
             global.apple_color = 'yellow';
         } else {
             //no sky color is chosen
-            show_message("I don't know which color to take");
+            //show_message("I don't know which color to take");
+            bubble = instance_create(275,45, obj_what_color);
+            bubble.image_xscale = 0.25;
+            bubble.image_yscale = 0.25;
         }
     } else {
         //apples haven't been unlocked yet
-        show_message("I can't reach those");
+        //show_message("I can't reach those");
+        bubble = instance_create(275,45, obj_cant_reach);
+        bubble.image_xscale = 0.25;
+        bubble.image_yscale = 0.25;
     }
 }
 </string>
