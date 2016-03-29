@@ -30,13 +30,19 @@ thought.image_xscale = 0.25;
 thought.image_yscale = 0.25;
 
 speed = 0;
-x = obj_giraffe_game.x + 15;
-y = obj_giraffe_game.y - 20;
 
-pdir = point_direction(x, y, obj_apple_green.x, obj_apple_green.y);
-motion_add(pdir, 5);
+if global.red_thrown == false {
+    x = obj_giraffe_game.x + 15;
+    y = obj_giraffe_game.y - 20;
 
-global.apples_fallen = true;
+    pdir = point_direction(x, y, obj_apple_green.x, obj_apple_green.y);
+    motion_add(pdir, 5);
+
+    global.apples_fallen = true;
+    global.red_thrown = true;
+} else {
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>

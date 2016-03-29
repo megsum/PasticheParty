@@ -97,13 +97,17 @@
             <string>if global.c_has_apple == false &amp;&amp; global.scene2 == true{
     if global.apples_fallen == true {
         if global.sky_color == 'blue' {
-            create_apple(obj_apple_blue_throw)
+            create_apple(obj_apple_blue_throw);
+            global.apple_color = 'blue';
         } else if global.sky_color == 'green'{
             create_apple(obj_apple_green_throw);
+            global.apple_color = 'green';
         } else if global.sky_color == 'purple'{
             create_apple(obj_apple_purple_throw);
+            global.apple_color = 'purple';
         } else if global.sky_color == 'yellow'{
             create_apple(obj_apple_yellow_throw);
+            global.apple_color = 'yellow';
         } else {
             //no sky color is chosen
             show_message("I don't know which color to take");
